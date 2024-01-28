@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedormain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e8ebe4;
+}
+/* BARRA LATERAL IZQUIERDA CON CONTACTO*/
+.contactos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-basis: 25%;
+}
+
+/* USUARIO, ESTADO Y DATOS nuevo*/
+nav {
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
+  height: 100px;
+  border-bottom: 3px solid;
+  border-right: 1px solid;
+  border-color: #bec1bb;
+}
+.fotoperfil {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.fotoperfil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  border: 5px solid;
+  border-color: #e8ebe4;
+}
+
+.estado {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 55%;
+}
+
+.estado h2 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: regular;
+  flex-basis: 50%;
+  margin-bottom: 0;
+}
+
+.estado p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: regular;
+  color: #bec1bb;
+  flex-basis: 50%;
+  margin-top: 3px;
+}
+
+.items {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.items i {
+  color: #bec1bb;
+}
+
+/* CONTACTOS, ESTADO Y DATOS*/
+.contacto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 95px;
+  border-bottom: 3px solid;
+  border-right: 1px solid;
+  border-color: #bec1bb;
+}
+.fotocontacto {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.fotocontacto img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  border: 5px solid;
+  border-color: #e8ebe4;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+}
+
+.info h2 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: regular;
+  flex-basis: 50%;
+  margin-bottom: 0;
+  color: #1b1f21;
+}
+
+.info p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  color: #444749;
+  flex-basis: 50%;
+  margin-top: 3px;
+}
+
+/* CHAT*/
+.nuevo-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25%;
+  width: 100%;
+  border-bottom: 3px solid;
+  border-right: 1px solid;
+  border-color: #bec1bb;
+}
+.nuevo-chat button {
+  margin: 10%;
+  padding: 10%;
+  flex-basis: 1;
+  flex-shrink: 2;
+  background-color: #a491d2;
+  color: white;
+  font-size: x-large;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* SECCION PRINCIPAL, DERECHA CON LOGO Y TEXTO*/
+.principal {
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imagen-logo {
+  width: 350px;
+  flex-basis: 1;
+}
+
+.imagen-logo img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.texto-intro {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.texto-intro h1 {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
